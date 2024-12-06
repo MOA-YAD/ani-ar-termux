@@ -1,5 +1,25 @@
 ## Ani-ar
 
+> This is a modified version of Ani-ar to work on Android termux
+ 
+> watch this [video](https://go.screenpal.com/player/cZlhDJnno5o?title=0) To make sure it works
+## install
+Firstly install go
+
+and clone this repository 
+
+```bash
+go run ani-ar-2.0/cmd/ani-ar.go
+```
+```bash
+cd cmd
+go build -o ani-ar
+```
+add this to .bashrc file
+```bash
+export PATH=$PATH:/data/data/com.termux/files/home/your/directory/ani-ar-2.0/cmd
+```
+
 ## Interactive search
 
 ```bash
